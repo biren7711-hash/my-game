@@ -11,6 +11,12 @@
     <div class="game-container">
         <h1>🎮 Game Đoán Số</h1>
         <p>Đoán số từ 1 đến 10</p>
+        <label>Độ khó:</label>
+<select id="difficulty" onchange="changeDifficulty()">
+    <option value="10">Dễ (1–10)</option>
+    <option value="50">Trung bình (1–50)</option>
+    <option value="100">Khó (1–100)</option>
+</select>
 
         <p id="score">🏆 Điểm: 0</p>
         <p id="lives">❤️ Mạng còn lại: 3</p>
@@ -26,3 +32,4 @@
 
 </body>
 </html>
+

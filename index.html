@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Game Đoán Số</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<p id="score">🏆 Điểm: 0</p>
+    <p id="lives">❤️ Mạng còn lại: 3</p>
+<body>
+
+    <h1>🎮 Game Đoán Số</h1>
+    <p>Đoán số từ 1 đến 10</p>
+
+    <input type="number" id="guess">
+    <button onclick="checkGuess()">Đoán</button>
+
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<button onclick="resetGame()">Chơi lại</button>

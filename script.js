@@ -1,3 +1,7 @@
+let maxNumber = 10;
+let randomNumber = Math.floor(Math.random() * maxNumber) + 1;
+let lives = 3;
+let gameOver = false;
 let randomNumber = Math.floor(Math.random() * 10) + 1;
 let lives = 3;
 let gameOver = false;
@@ -62,4 +66,5 @@ function resetGame() {
     document.getElementById("guess").value = "";
     document.getElementById("lives").innerText = "❤️ Mạng còn lại: 3";
     document.body.style.backgroundColor = "#222";
+
 }
